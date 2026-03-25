@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "atlassian": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-atlassian"],
+      "envFile": "${workspaceFolder}/.env",
+    },
+    "figma": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-figma"],
+      "envFile": "${workspaceFolder}/.env"
+    }
+  }
+}
